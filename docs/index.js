@@ -1,4 +1,4 @@
-import gsap from "./gsap/all.js";
+/*import gsap from "./gsap/all.js";
 import { Flip } from "./gsap/Flip.js";
 import { ScrollTrigger } from "./gsap/ScrollTrigger.js";
 import { Observer } from "./gsap/Observer.js";
@@ -6,7 +6,16 @@ import { ScrollToPlugin } from "./gsap/ScrollToPlugin.js";
 import { Draggable } from "./gsap/Draggable.js";
 import { MotionPathPlugin } from "./gsap/MotionPathPlugin.js";
 import { TextPlugin } from "./gsap/TextPlugin.js";
-import anime from "./gsap/animejs/lib/anime.es.js";
+import anime from "./gsap/animejs/lib/anime.es.js";*/
+import gsap from "../node_modules/gsap/all.js";
+import { Flip } from "../node_modules/gsap/Flip.js";
+import { Observer } from "../node_modules/gsap/Observer.js";
+import { ScrollTrigger } from "../node_modules/gsap/ScrollTrigger.js";
+import { ScrollToPlugin } from "../node_modules/gsap/ScrollToPlugin.js";
+import { Draggable } from "../node_modules/gsap/Draggable.js";
+import { MotionPathPlugin } from "../node_modules/gsap/MotionPathPlugin.js";
+import { TextPlugin } from "../node_modules/gsap/TextPlugin.js";
+import anime from "../node_modules/animejs/lib/anime.es.js";
 gsap.registerPlugin(
   Flip,
   ScrollTrigger,
@@ -77,7 +86,6 @@ butt2.addEventListener("click", () => {
   });
 });
 //==================end button animation =========================
-//================= start img boc-shadow animation ==============
 
 //end   locomotive scrolling: =========================================
 var img_all = [
